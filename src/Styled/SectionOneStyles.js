@@ -27,7 +27,7 @@ export const Title = styled.h1`
 `
 
 export const Span = styled.span`
-    color: ${COLOR.ORCHID};
+    color: ${props => props.headerColor ? COLOR.BLACK : COLOR.ORCHID};
     display:flex;
     flex-direction: row;
     padding: ${props => props.padding ? "0px 25px" : "0px 10px"};
