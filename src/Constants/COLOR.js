@@ -4,3 +4,4 @@ export const WHITE='white';
 export const VINOUS='#A50710';
 export const ORCHID='#da70d6';
 export const BLACK='#404144';
+export const LAVANDER ="#E6E6FA"

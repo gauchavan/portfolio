@@ -1,18 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import SectionOne from './SectionOne/SectionOne';
-import styled from 'styled-components';
+import HomePage from './HomePage/HomePage';
 
-const MainContainer = styled.div`
-    display: flex;
-    flex-direction: column;
-`
-const App = () => {
-    return (
-        <MainContainer>
-            <SectionOne />
-        </MainContainer>    
-    );
-};
 
-ReactDOM.render(<App />, document.getElementById("root"));
+ReactDOM.render(<HomePage />, document.getElementById("root"));

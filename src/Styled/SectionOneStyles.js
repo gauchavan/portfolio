@@ -30,7 +30,7 @@ export const Span = styled.span`
     color: ${COLOR.ORCHID};
     display:flex;
     flex-direction: row;
-    padding: 0px 7px;
+    padding: ${props => props.padding ? "0px 25px" : "0px 10px"};
 `
 
 export const Button = styled.button`
