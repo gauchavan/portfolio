@@ -94,7 +94,7 @@ class SectionOne extends Component {
     render(){
         return (
             //<SectionOneContainer onMouseOver={(event) => this.animate(event)}>
-            <SectionOneContainer>
+            <SectionOneContainer height>
                     <Title>Hello, I'm <Span>Gauri Chavan</Span></Title>
                     <Title>I'm a full-stack web developer</Title>
                     <Button>Find my work</Button>

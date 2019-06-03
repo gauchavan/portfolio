@@ -1,6 +1,8 @@
 import styled from 'styled-components';
 import * as COLOR from './../Constants/COLOR';
 
+
+
 export const SectionOneContainer = styled.div`
 display: flex;
 flex-direction: column;
@@ -8,7 +10,7 @@ background-color: ${COLOR.WHITE};
 width: 100vw;
 overflow: hidden;
 position: relative;
-height: calc(100vh + 5px);
+height: ${props => props.height ? "100vh" : "auto"};
 align-items: center;
 justify-content: center;
 `
@@ -22,7 +24,7 @@ export const Title = styled.h1`
     padding: 5px;
     font-size:50px;
     text-align:center;
-    color:${COLOR.BLACK};
+    color:${props => props.primary ? COLOR.ORCHID : COLOR.BLACK};
     font-family: 'Fira_Sans_SemiBold';
 `
 
@@ -42,6 +44,11 @@ export const Button = styled.button`
     color:${COLOR.ORCHID};
     margin: 10px;
     cursor: pointer; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: auto;
     &:hover{
         background: ${COLOR.ORCHID};
         border:2px solid ${COLOR.ORCHID};
