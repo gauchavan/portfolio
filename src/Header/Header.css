@@ -1,0 +1,7 @@
+.headerFixed{
+    position: fixed;
+}
+
+.headerNotFixed{
+    position: relative;
+}

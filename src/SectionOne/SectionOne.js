@@ -14,7 +14,6 @@ class SectionOne extends Component {
 
     componentDidMount(){
         this.initAnimate();
-       // setTimeout(this.setState({position: 1}), 3000);
     }
 
     initAnimate(){
