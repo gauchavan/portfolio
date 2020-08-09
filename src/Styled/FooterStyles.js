@@ -23,7 +23,7 @@ export const LinkDiv = styled.div`
 export const  FooterText = styled.div`
     display: flex;
     flex-direction: column;
-    color: ${COLOR.ORCHID};
+    color: ${COLOR.GRAY};
     font-size: 15px;
     justify-content: center;
     text-align: center;

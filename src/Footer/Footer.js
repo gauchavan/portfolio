@@ -1,18 +1,35 @@
 import React  from "react";
 import {FooterDiv, FooterText, LinkDiv} from './../Styled/FooterStyles';
-import {Span} from './../Styled/SectionOneStyles';
-
+import {Links} from './../Styled/CommonStyles';
+import FontIcon from './../FontIcon/FontIcon';
+import {Span} from './../Styled/CommonStyles';
+import * as COLOR from './../Constants/COLOR';
 
 const Footer = () => {
     return (
-        <FooterDiv>
+        <FooterDiv style={{backgroundColor: '#f9f9f9'}}>
             <LinkDiv>
-                <Span padding>GitHub</Span>
-                <Span padding>LinkedIn</Span>
-                <Span padding>Contact Me</Span>
+                {/* <Span padding='0px 10px'>
+                    <Links href='' color={COLOR.GRAY} underline='none'>
+                        <FontIcon padding='0px 10px' font='20px' align='center' color={COLOR.BLUE} name='fab fa-twitter'/>
+                        Twitter
+                    </Links>
+                </Span> */}
+                <Span padding='0px 10px'>
+                    <Links href='https://www.linkedin.com/company/sksi-associates-llp/' color={COLOR.GRAY} underline='none'>
+                        <FontIcon padding='0px 10px' font='20px' align='center' color={COLOR.BLUE} name='fab fa-linkedin-in'/>
+                        LinkedIn
+                    </Links>
+                </Span>
+                <Span padding='0px 10px'>
+                    <Links href={'#contactus'} color={COLOR.GRAY} underline='none'>
+                        <FontIcon padding='0px 10px' font='20px' align='center' color={COLOR.BLUE} name='fas fa-phone-alt'/>
+                        Contact Us
+                    </Links>
+                </Span>
             </LinkDiv>
             <FooterText>
-                &#169; Gauri Chavan {new Date().getFullYear()}. All rights reserved.
+                &#169; SKSI & Associates LLP {new Date().getFullYear()}. All rights reserved.
             </FooterText>
         </FooterDiv>
     );
