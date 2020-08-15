@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.6ca07ce1.chunk.css",
-    "main.js": "/portfolio/static/js/main.af1ac5dd.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.af1ac5dd.chunk.js.map",
-    "runtime~main.js": "/portfolio/static/js/runtime~main.f308c8e6.js",
-    "runtime~main.js.map": "/portfolio/static/js/runtime~main.f308c8e6.js.map",
-    "static/js/2.a379ef29.chunk.js": "/portfolio/static/js/2.a379ef29.chunk.js",
-    "static/js/2.a379ef29.chunk.js.map": "/portfolio/static/js/2.a379ef29.chunk.js.map",
-    "index.html": "/portfolio/index.html",
-    "precache-manifest.583e1b8a6f6d6e423f478ba843dcb1ba.js": "/portfolio/precache-manifest.583e1b8a6f6d6e423f478ba843dcb1ba.js",
-    "service-worker.js": "/portfolio/service-worker.js",
-    "static/css/main.6ca07ce1.chunk.css.map": "/portfolio/static/css/main.6ca07ce1.chunk.css.map",
-    "static/media/CommonStyles.css": "/portfolio/static/media/background.0d2c0d4f.jpg"
+    "main.css": "/gauchavan.github.io/static/css/main.9f1cbd32.chunk.css",
+    "main.js": "/gauchavan.github.io/static/js/main.af1ac5dd.chunk.js",
+    "main.js.map": "/gauchavan.github.io/static/js/main.af1ac5dd.chunk.js.map",
+    "runtime~main.js": "/gauchavan.github.io/static/js/runtime~main.d4fd2690.js",
+    "runtime~main.js.map": "/gauchavan.github.io/static/js/runtime~main.d4fd2690.js.map",
+    "static/js/2.a0d467ed.chunk.js": "/gauchavan.github.io/static/js/2.a0d467ed.chunk.js",
+    "static/js/2.a0d467ed.chunk.js.map": "/gauchavan.github.io/static/js/2.a0d467ed.chunk.js.map",
+    "index.html": "/gauchavan.github.io/index.html",
+    "precache-manifest.8e8fe12a1b9cda51ec85a58799a9ed50.js": "/gauchavan.github.io/precache-manifest.8e8fe12a1b9cda51ec85a58799a9ed50.js",
+    "service-worker.js": "/gauchavan.github.io/service-worker.js",
+    "static/css/main.9f1cbd32.chunk.css.map": "/gauchavan.github.io/static/css/main.9f1cbd32.chunk.css.map",
+    "static/media/CommonStyles.css": "/gauchavan.github.io/static/media/background.0d2c0d4f.jpg"
   }
 }
